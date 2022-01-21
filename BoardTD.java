@@ -125,7 +125,7 @@ public class BoardTD {
             }
             turnCount++;
             obj1.print();
-            if ((obj1.hitCount <= 17) && (obj2.hitCount <= 17)) {
+            if ((obj1.hitCount >= 17) || (obj2.hitCount >= 17)) {
                 break;
             }
         }
